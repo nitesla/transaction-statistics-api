@@ -6,3 +6,6 @@ The API contains the following endpoints:
 2.  GET /transaction: returns the statistic based on the transactions of the last 30 seconds
 3.  DELETE /transaction: deletes all transactions.
 
+# AlgorithmSolution
+
+This solution also contains implementations for the algorithm tasks
