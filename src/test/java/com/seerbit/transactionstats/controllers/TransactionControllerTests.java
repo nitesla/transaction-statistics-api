@@ -61,7 +61,7 @@ public class TransactionControllerTests {
 
     this.mockMvc.perform(get("/statistics"))
       .andExpect(status().isOk())
-      .andExpect(jsonPath("$.max", Matchers.is("100.00")));
+      .andExpect(jsonPath("$.max", Matchers.is("12.33")));
   }
 
   @Test

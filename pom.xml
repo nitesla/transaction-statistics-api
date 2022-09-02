@@ -13,7 +13,7 @@
 	<name>transaction-stats</name>
 	<description>A RESTFUL API for transaction stats</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

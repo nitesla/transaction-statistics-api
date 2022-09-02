@@ -10,16 +10,11 @@ public class Mocker {
   public static CreateTransactionRequest getRequest(String type) {
     switch (type) {
       case "WITH_TIMESTAMP":
-        return CreateTransactionRequest
-          .builder()
-          .amount("12.3343")
-          .timestamp("2018-07-17T09:59:51.312Z")
-          .build();
       default:
         return CreateTransactionRequest
           .builder()
-          .amount("12.3343")
-          .timestamp(null)
+          .amount("12.33")
+          .timestamp("2018-07-17T09:59:51.312Z")
           .build();
     }
   }
@@ -35,10 +30,10 @@ public class Mocker {
   public static StatisticsResponse getStatistics() {
     return StatisticsResponse
       .builder()
-      .avg("12.3343")
-      .sum("12.3343")
-      .max("12.3343")
-      .min("12.3343")
+      .avg("12.33")
+      .sum("12.33")
+      .max("12.33")
+      .min("12.33")
       .count(1)
       .build();
   }
