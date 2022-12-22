@@ -1,4 +1,4 @@
-# Transaction Stats API
+# Transaction Statistics API
 A RESTful API for Transaction statistics.
 
 The API contains the following endpoints: 
